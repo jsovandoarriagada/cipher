@@ -84,4 +84,7 @@ const reset = () => {
   document.getElementById('message').value = '';
   result.innerText = '';
   empty.style = 'color: var(--color-primary)';
+  accent.style = 'color: var(--color-secondary)';
+  special.style = 'color: var(--color-secondary)';
+  uppercase.style = 'color: var(--color-secondary)';
 };
