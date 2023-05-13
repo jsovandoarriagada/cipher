@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE &mdash; Challenge #1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e163f2df2a.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS: ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark">
+    <!-- LAYOUT -->
+    <div class="layout">
+      <!-- HEADER -->
+      <header class="header">
+        <!-- HEADER: TITLE -->
+        <h1 class="header__title">CIPHER</h1>
+        <!-- HEADER: ICON -->
+        <i class="header__icon fa-solid fa-lock"></i>
+      </header>
+      <!-- MAIN -->
+      <main class="main">
+        <!-- INPUT -->
+        <div class="input">
+          <!-- INPUT: FORM -->
+          <form class="input__form" id="input__form">
+            <textarea
+              form="input__form"
+              id="message"
+              name="message"
+              class="input__form--textarea"
+              type="text"
+              placeholder="Write here..."
+            ></textarea>
+            <div class="input__form--rules">
+              <p id="accent">> Accents not allowed.</p>
+              <p id="special">> Special chars not allowed.</p>
+              <p id="uppercase">> Uppercase not allowed.</p>
+            </div>
+          </form>
+          <!-- INPUT: BUTTONS -->
+          <div class="input__buttons">
+            <button class="button button__encrypt" onclick="encryptMessage()">Encrypt</button>
+            <button class="button button__decrypt" onclick="decryptMessage()">Decrypt</button>
+          </div>
+        </div>
+        <!-- OUTPUT -->
+        <div class="output">
+          <!-- OUTPUT: RESULT -->
+          <div class="output__result">
+            <p class="output__result--message" id="result"></p>
+            <p class="output__result--rules" id="empty">> Enter a message.</p>
+          </div>
+          <!-- OUTPUT: BUTTONS -->
+          <div class="output__buttons">
+            <button class="button__copy button" id="copy" onclick="copy()">Copy</button>
+            <button class="button__reset button" onclick="reset()">Reset</button>
+          </div>
+        </div>
+      </main>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <p class="footer__desktop">
+          © 2023 José Simón Ovando Arriagada &mdash; All Rights Reserved.
+        </p>
+        <p class="footer__mobile--name">
+          © 2023 José <span>Simón</span> Ovando <span>Arriagada</span>
+        </p>
+        <p class="footer__mobile--rights">All Rights Reserved.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
