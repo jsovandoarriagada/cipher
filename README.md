@@ -5,7 +5,7 @@
   <a href="https://github.com/jsovandoarriagada/cipher">
     <img src="https://i.ibb.co/FKNTD51/cipher.png" alt="Logo" width="40" height="40">
   </a>
-  <h2 align="center">ONE Challenge #1 - Cipher</h2>
+  <h2 align="center">ONE Challenge #1 &mdash; Cipher</h2>
 </div>
 
 <!-- TABLE OF CONTENTS -->
