@@ -38,6 +38,7 @@
 💡 Accent marks are not allowed.\
 💡 Special characters are not allowed.\
 💡 Uppercase letters are not allowed.\
+💡 It is possible to convert a message to the encrypted version also to return an encrypted message to its original version.\
 💡 The encryption "keys" used are the following:\
 👉 The letter "a" is converted to "ai".\
 👉 The letter "e" is converted to "enter".\
