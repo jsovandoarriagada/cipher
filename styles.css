@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root {
   --color-background: #151418;
+  --color-scrollbar: #59585d;
   --color-secondary: #f8a713;
   --color-primary: #6f72e3;
   --color-shadow: #000000;
@@ -26,25 +27,20 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
+  color: var(--color-font);
+  background: var(--color-background);
 }
 
 /* GENERAL: SCROLLBAR */
 .input__form--textarea::-webkit-scrollbar,
 .output__result--message::-webkit-scrollbar {
-  width: 5px;
+  width: 0.5rem;
   height: auto;
 }
 .input__form--textarea::-webkit-scrollbar-thumb,
 .output__result--message::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-}
-
-.input__form--textarea::-webkit-scrollbar-thumb {
-  background-color: var(--color-secondary);
-}
-
-.output__result--message::-webkit-scrollbar-thumb {
-  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  background-color: var(--color-scrollbar);
 }
 
 /* GENERAL: BUTTON */
@@ -65,12 +61,6 @@ body {
 
 .button:active {
   transform: translateY(-0.2rem);
-}
-
-/* GENERAL: THEMES */
-.dark {
-  color: var(--color-font);
-  background: var(--color-background);
 }
 
 /* LAYOUT */
@@ -97,6 +87,7 @@ body {
 .header__icon {
   color: var(--color-primary);
   font-size: 3rem;
+  cursor: not-allowed;
 }
 
 /* MAIN */
@@ -105,11 +96,17 @@ body {
   gap: 1.5rem;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 66.25rem) {
   .main {
     flex-direction: column;
     gap: 3rem;
     margin: 5rem 0;
+  }
+}
+
+@media (max-width: 27.5rem) {
+  .main {
+    gap: 2rem;
   }
 }
 
@@ -118,11 +115,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
+  min-width: calc(50% - 7.25rem);
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 66.25rem) {
   .input {
     width: 100%;
+    min-width: 100%;
   }
 }
 
@@ -137,6 +136,18 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 66.25rem) {
+  .input__form {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 27.5rem) {
+  .input__form {
+    height: 20rem;
+  }
+}
+
 .input__form--textarea {
   background: var(--color-input);
   color: var(--color-font);
@@ -147,6 +158,18 @@ body {
   outline: none;
   resize: none;
   border: 0;
+}
+
+@media (max-width: 66.25rem) {
+  .input__form--textarea {
+    height: 60%;
+  }
+}
+
+@media (max-width: 27.5rem) {
+  .input__form--textarea {
+    height: 45%;
+  }
 }
 
 .input__form--rules {
@@ -175,11 +198,13 @@ body {
 /* OUTPUT */
 .output {
   width: 50%;
+  min-width: calc(50% - 7.25rem);
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 66.25rem) {
   .output {
     width: 100%;
+    min-width: 100%;
   }
 }
 
@@ -194,10 +219,34 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 66.25rem) {
+  .output__result {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 27.5rem) {
+  .output__result {
+    height: 20rem;
+  }
+}
+
 .output__result--message {
-  height: 70%;
+  height: 85%;
   overflow-wrap: break-word;
   overflow-x: hidden;
+}
+
+@media (max-width: 66.25rem) {
+  .output__result--message {
+    height: 80%;
+  }
+}
+
+@media (max-width: 27.5rem) {
+  .output__result--message {
+    height: 75%;
+  }
 }
 
 .output__result--rules {
@@ -217,7 +266,7 @@ body {
   border: 0.2rem solid var(--color-secondary);
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 66.25rem) {
   .button__copy {
     background: none;
     border: 0.2rem solid var(--color-secondary);
@@ -231,7 +280,7 @@ body {
   color: var(--color-secondary);
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 66.25rem) {
   .button__reset {
     background: var(--color-secondary);
     border: 0.2rem solid var(--color-secondary);
@@ -247,7 +296,7 @@ body {
   align-items: center;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 42.5rem) {
   .footer__desktop {
     display: none;
   }
@@ -257,13 +306,13 @@ body {
   display: none;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 42.5rem) {
   .footer__mobile--name {
     display: block;
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 27.5rem) {
   .footer__mobile--name span {
     display: none;
   }
@@ -273,7 +322,7 @@ body {
   display: none;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 42.5rem) {
   .footer__mobile--rights {
     display: block;
   }
