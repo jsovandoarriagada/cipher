@@ -39,10 +39,10 @@
 💡 Special characters are not allowed.\
 💡 Uppercase letters are not allowed.\
 💡 The encryption "keys" used are the following:\
-👉 The letter "e" is converted to "enter".\
-👉 The letter "i" is converted to "imes".\
 👉 The letter "a" is converted to "ai".\
+👉 The letter "e" is converted to "enter".\
 👉 The letter "o" is converted to "ober".\
+👉 The letter "i" is converted to "imes".\
 👉 The letter "u" is converted to "ufat".
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
