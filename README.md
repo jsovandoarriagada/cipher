@@ -35,8 +35,16 @@
 <!-- FEATURES -->
 ## Features
 
-💡 Persistent data (localStorage)\
-💡 Responsive design
+💡 The encryption "keys" used are the following:\
+👉 The letter "e" is converted to "enter".\
+👉 The letter "i" is converted to "imes".\
+👉 The letter "a" is converted to "ai".\
+👉 The letter "o" is converted to "ober".\
+👉 The letter "u" is converted to "ufat".
+
+💡 Accent marks are not allowed.\
+💡 Special characters are not allowed.\
+💡 Uppercase letters are not allowed.
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
@@ -65,11 +73,11 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[CSS3-url]: https://reactjs.org/
+[CSS3-url]: https://www.css3.com/
 [HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[HTML5-url]: https://firebase.google.com/
+[HTML5-url]: https://html5.org/
 [JavaScript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-[JavaScript-url]: https://momentjs.com/
+[JavaScript-url]: www.ecma-international.org/publications-and-standards/standards/ecma-262/
 [Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [Gmail-url]: mailto:jsovandoarriagada@gmail.com
 [Linkedin]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
