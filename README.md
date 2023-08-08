@@ -19,6 +19,7 @@
 6️⃣ <a href="#contact">Contact</a>
 
 <!-- AUTHOR -->
+
 ## Author
 
 👋 Hi, my name is José Simón Ovando Arriagada, I'm Chilean and I aspire to be a frontend developer.
@@ -26,6 +27,7 @@
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About the project
 
 💡 <em>Cipher</em> is the first challenge of Oracle Next Education program.
@@ -33,6 +35,7 @@
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- FEATURES -->
+
 ## Features
 
 💡 Accent marks are not allowed.\
@@ -48,6 +51,7 @@
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- BUILT WITH -->
+
 ## Built with
 
 💡 <em>Cipher</em> was created using the following technologies:
@@ -57,6 +61,7 @@
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- LICENSE -->
+
 ## License
 
 💡 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -64,13 +69,15 @@
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- CONTACT -->
+
 ## Contact
 
-[![Gmail][Gmail]][Gmail-url] [![Linkedin][Linkedin]][Linkedin-url] 
+[![Gmail][Gmail]][Gmail-url] [![Linkedin][Linkedin]][Linkedin-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [CSS3-url]: https://www.css3.com/
 [HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
